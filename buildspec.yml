@@ -6,7 +6,7 @@ phases:
       nodejs: 18
   pre-install:
     commands:
-      - cd my-app
+      - cd Cheriskope-main (1)/Cheriskope-main
       - echo Installing source NPM dependencies...
       - npm install
   build:
@@ -18,5 +18,5 @@ artifacts:
   files:
     - '**/*'
     # - "my-app/build/**/*"
-  base-directory: 'my-app/build'
+  base-directory: 'Cheriskope-main (1)/Cheriskope-main/build'
   discard-paths: yes
